@@ -7578,7 +7578,7 @@ if (!build_with_chromium && v8_use_perfetto) {
   }
 }  # if (!build_with_chromium && v8_use_perfetto)
 
-v8_shared_library("paco") {
+v8_shared_library("v8-crossy") {
   sources = [
     "paco/common.h",
     "paco/generic_target.cpp",
